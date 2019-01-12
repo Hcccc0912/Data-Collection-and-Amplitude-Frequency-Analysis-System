@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity an108 is
+	port(clk:in std_logic;
+		adclk:out std_logic;
+		datain:in std_logic_vector(7 downto 0);
+		dataout:out std_logic_vector(7 downto 0));
+end an108;
+
+architecture Behavioral of an108 is
+signal data_temp:std_logic_vector(7 downto 0);
+begin
+process(clk)
+begin
+	if(rising_edge(clk))then
+		data_temp <= datain;
+	end if;
+end process;
+dataout <= data_temp;
+adclk <= clk;
+end Behavioral;
+

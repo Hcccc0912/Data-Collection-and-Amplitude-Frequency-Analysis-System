@@ -1,0 +1,185 @@
+------------------------------------------------------------
+Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1200mV 85C Model Setup 'clk'
+Slack : -164.887
+TNS   : -11179.446
+
+Type  : Slow 1200mV 85C Model Setup 'fx'
+Slack : -4.778
+TNS   : -91.152
+
+Type  : Slow 1200mV 85C Model Setup 'uartrx:u3|rdsig'
+Slack : -4.208
+TNS   : -4.208
+
+Type  : Slow 1200mV 85C Model Setup 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -2.272
+TNS   : -2.272
+
+Type  : Slow 1200mV 85C Model Setup 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : -0.017
+TNS   : -0.295
+
+Type  : Slow 1200mV 85C Model Hold 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : 0.400
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'clk'
+Slack : 0.431
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.453
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'uartrx:u3|rdsig'
+Slack : 0.485
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Hold 'fx'
+Slack : 0.621
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'fx'
+Slack : -3.000
+TNS   : -43.149
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : -1.487
+TNS   : -35.688
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'uartrx:u3|rdsig'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'clk'
+Slack : 9.735
+TNS   : 0.000
+
+Type  : Slow 1200mV 85C Model Minimum Pulse Width 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 51.802
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Setup 'clk'
+Slack : -148.331
+TNS   : -10054.204
+
+Type  : Slow 1200mV 0C Model Setup 'fx'
+Slack : -4.479
+TNS   : -82.211
+
+Type  : Slow 1200mV 0C Model Setup 'uartrx:u3|rdsig'
+Slack : -4.173
+TNS   : -4.173
+
+Type  : Slow 1200mV 0C Model Setup 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.964
+TNS   : -1.964
+
+Type  : Slow 1200mV 0C Model Setup 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : -0.044
+TNS   : -0.936
+
+Type  : Slow 1200mV 0C Model Hold 'clk'
+Slack : 0.381
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'fx'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.401
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'uartrx:u3|rdsig'
+Slack : 0.430
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Hold 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : 0.459
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'fx'
+Slack : -3.000
+TNS   : -43.149
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : -1.487
+TNS   : -35.688
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'uartrx:u3|rdsig'
+Slack : -1.487
+TNS   : -1.487
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.748
+TNS   : 0.000
+
+Type  : Slow 1200mV 0C Model Minimum Pulse Width 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 51.801
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Setup 'clk'
+Slack : -61.110
+TNS   : -4138.418
+
+Type  : Fast 1200mV 0C Model Setup 'uartrx:u3|rdsig'
+Slack : -1.789
+TNS   : -1.789
+
+Type  : Fast 1200mV 0C Model Setup 'fx'
+Slack : -1.398
+TNS   : -25.446
+
+Type  : Fast 1200mV 0C Model Setup 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : -1.208
+TNS   : -1.208
+
+Type  : Fast 1200mV 0C Model Setup 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : 0.450
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'clk'
+Slack : 0.178
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 0.186
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'uartrx:u3|rdsig'
+Slack : 0.201
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : 0.220
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Hold 'fx'
+Slack : 0.278
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'fx'
+Slack : -3.000
+TNS   : -44.102
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'TopLevel:u5|FrequenCnt:u1|DTrig:u1|Q'
+Slack : -1.000
+TNS   : -24.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'uartrx:u3|rdsig'
+Slack : -1.000
+TNS   : -1.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'clk'
+Slack : 9.233
+TNS   : 0.000
+
+Type  : Fast 1200mV 0C Model Minimum Pulse Width 'u1|altpll_component|auto_generated|pll1|clk[0]'
+Slack : 51.879
+TNS   : 0.000
+
+------------------------------------------------------------

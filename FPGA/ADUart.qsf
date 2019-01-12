@@ -1,0 +1,106 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2012 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 12.1 Build 177 11/07/2012 SJ Full Version
+# Date created = 16:10:57  December 24, 2018
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		ADUart_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6F17C8
+set_global_assignment -name TOP_LEVEL_ENTITY top
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 12.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "16:10:57  DECEMBER 24, 2018"
+set_global_assignment -name LAST_QUARTUS_VERSION "18.0.0 Standard Edition"
+set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name DEVICE_FILTER_PACKAGE FBGA
+set_global_assignment -name DEVICE_FILTER_PIN_COUNT 256
+set_global_assignment -name DEVICE_FILTER_SPEED_GRADE 8
+set_global_assignment -name ERROR_CHECK_FREQUENCY_DIVISOR 1
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_global_assignment -name USE_CONFIGURATION_DEVICE OFF
+set_global_assignment -name CRC_ERROR_OPEN_DRAIN OFF
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_NEAR_END_VMEAS "HALF VCCIO" -fall
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -rise
+set_global_assignment -name OUTPUT_IO_TIMING_FAR_END_VMEAS "HALF SIGNAL SWING" -fall
+set_location_assignment PIN_L10 -to adclk
+set_location_assignment PIN_M9 -to addata[7]
+set_location_assignment PIN_T2 -to addata[6]
+set_location_assignment PIN_P3 -to addata[5]
+set_location_assignment PIN_T3 -to addata[4]
+set_location_assignment PIN_R3 -to addata[3]
+set_location_assignment PIN_T4 -to addata[2]
+set_location_assignment PIN_R4 -to addata[1]
+set_location_assignment PIN_T5 -to addata[0]
+set_location_assignment PIN_E1 -to clk
+set_location_assignment PIN_M2 -to rx
+set_location_assignment PIN_N1 -to tx
+set_location_assignment PIN_N13 -to rst_n
+set_global_assignment -name VHDL_FILE TopLevel.vhd
+set_global_assignment -name VHDL_FILE SmgWeiCode.vhd
+set_global_assignment -name VHDL_FILE SmgTopLevel.vhd
+set_global_assignment -name VHDL_FILE SmgDuanCode.vhd
+set_global_assignment -name VHDL_FILE SmgDataSeg.vhd
+set_global_assignment -name VHDL_FILE GateSigGen.vhd
+set_global_assignment -name VHDL_FILE FrequenCnt.vhd
+set_global_assignment -name VHDL_FILE FreCnt.vhd
+set_global_assignment -name VHDL_FILE DTrig.vhd
+set_global_assignment -name VHDL_FILE DataTrans.vhd
+set_global_assignment -name QIP_FILE pll.qip
+set_global_assignment -name VHDL_FILE an108.vhd
+set_global_assignment -name VHDL_FILE uarttx.vhd
+set_global_assignment -name VHDL_FILE uartrx.vhd
+set_global_assignment -name VHDL_FILE top.vhd
+set_global_assignment -name CDF_FILE Chain2.cdf
+set_location_assignment PIN_B1 -to fx
+set_location_assignment PIN_R16 -to SmgDuan[7]
+set_location_assignment PIN_N15 -to SmgDuan[6]
+set_location_assignment PIN_N12 -to SmgDuan[5]
+set_location_assignment PIN_P15 -to SmgDuan[4]
+set_location_assignment PIN_T15 -to SmgDuan[3]
+set_location_assignment PIN_P16 -to SmgDuan[2]
+set_location_assignment PIN_N16 -to SmgDuan[1]
+set_location_assignment PIN_R14 -to SmgDuan[0]
+set_location_assignment PIN_N9 -to SmgWei[5]
+set_location_assignment PIN_P9 -to SmgWei[4]
+set_location_assignment PIN_M10 -to SmgWei[3]
+set_location_assignment PIN_N11 -to SmgWei[2]
+set_location_assignment PIN_P11 -to SmgWei[1]
+set_location_assignment PIN_M11 -to SmgWei[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

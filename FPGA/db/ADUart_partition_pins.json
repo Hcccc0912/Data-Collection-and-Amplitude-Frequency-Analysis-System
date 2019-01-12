@@ -1,0 +1,117 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "tx",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[5]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[6]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgDuan[7]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgWei[0]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgWei[1]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgWei[2]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgWei[3]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgWei[4]",
+					"strict" : false
+				},
+				{
+					"name" : "SmgWei[5]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "rst_n",
+					"strict" : false
+				},
+				{
+					"name" : "addata[4]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[5]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[3]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[6]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[7]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[2]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[0]",
+					"strict" : false
+				},
+				{
+					"name" : "addata[1]",
+					"strict" : false
+				},
+				{
+					"name" : "rx",
+					"strict" : false
+				},
+				{
+					"name" : "fx",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
